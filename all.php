@@ -7,22 +7,22 @@ class MyClass
     public function setMylove($love) {
         $this->_private = $love;
     }
-
-    public function getMylove() {
+        public function getMylove() 
+        {
         return $this->_private;
-    }
+        }
 
-    function printHello()
-    {
+        function printHello()
+        {
         echo $this->public;
         echo $this->protected;
         echo $this->_private;
+        }
     }
-}
 $obj = new MyClass();
 // echo $obj->public; 
 $obj->printHello();
-$obj->setMylove(1000000);
+$obj->setMylove(1);
 echo $obj->getMylove();
 class MyClass2 extends MyClass
 {
