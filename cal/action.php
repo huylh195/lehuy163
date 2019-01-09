@@ -22,7 +22,12 @@ if($action=="*")
 if($action=="/")
     {
         echo "<b> Answer is:</b><br>";
-        echo $number1/$number2;
+        echo $value1/$value2;
+    }
+    if($action=="%")
+    {
+        echo "<b> Answer is:</b><br>";
+        echo $value1%$value2;
     }
 }
 ?>
