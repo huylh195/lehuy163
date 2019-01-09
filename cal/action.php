@@ -24,7 +24,7 @@ if($action=="/")
         echo "<b> Answer is:</b><br>";
         echo $value1/$value2;
     }
-    if($action=="%")
+if($action=="%")
     {
         echo "<b> Answer is:</b><br>";
         echo $value1%$value2;
